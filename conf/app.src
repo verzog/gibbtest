@@ -1,4 +1,4 @@
-SOURCE_URL=https://github.com/remdex/livehelperchat/archive/master.zip
+SOURCE_URL=https://github.com/LiveHelperChat/livehelperchat/archive/refs/heads/master.zip
 SOURCE_SUM=f019b15f49e6477701345254c15eb4c773d09e5470d9936b37f8c462fe6fc74d
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
