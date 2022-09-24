@@ -1,19 +1,16 @@
 {
-    "name": "Moodle",
-    "id": "moodle",
+    "name": "Live helper chat",
+    "id": "LHC",
     "packaging_format": 1,
     "description": {
-        "en": "Online learning platform",
+        "en": "chat tool",
         "fr": "Plateforme d'apprentissage en ligne"
     },
-    "version": "4.0.3~ynh1",
+    "version": "4.0.0~ynh1",
     "url": "https://moodle.org/",
     "upstream": {
-        "license": "GPL-3.0-or-later",
-        "website": "https://moodle.org/",
-        "demo": "https://sandbox.moodledemo.net/",
-        "admindoc": "https://docs.moodle.org/400/en/Main_page",
-        "code": "https://github.com/moodle/moodle"
+        "license": "GPL-3.0-or-later"
+        
     },
     "license": "GPL-3.0-or-later",
     "maintainer": {
@@ -37,8 +34,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/moodle",
-                "default": "/moodle"
+                "example": "/LHC",
+                "default": "/lhc"
             },
             {
                 "name": "is_public",
@@ -56,8 +53,8 @@
                     "en": "Choose a name for the site you want to create",
                     "fr": "Choisissez un nom pour le site que vous voulez créer"
                 },
-                "default": "moodle",
-                "example": "moodle"
+                "default": "lhc",
+                "example": "lhc"
             }
         ]
     }
