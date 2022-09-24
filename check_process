@@ -4,7 +4,7 @@
 		path="/path"
 		is_public=1
 		admin="john"
-		site_name="Moodle"
+		site_name="Live helper Chat"
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=1
